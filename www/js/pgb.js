@@ -18,5 +18,5 @@ function deviceInfo() {
 			'Device Version : '  + device.version  + '\n';
 
 	navigator.notification.alert(info);
-	
+	navigator.notification.beep(1);
 }
